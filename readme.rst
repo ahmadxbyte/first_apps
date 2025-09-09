@@ -1,37 +1,106 @@
-# 🔹 First Apps – CodeIgniter 3 Project
+###################
+INSTALL MPDF
+###################
+1. instal composer
+2. jalankan perintah "composer require mpdf/mpdf", untuk mpdf
+3. jalankan perintah "composer require chillerlan/php-qrcode", untuk qr code
+4. pada macOS jalankan perintah "sudo chmod -R 777 vendor/mpdf/mpdf/tmp" di folder first_apps
 
-## 📖 Introduction
-First Apps adalah project berbasis CodeIgniter 3, sebuah PHP framework ringan dan powerful untuk membangun aplikasi web dengan cepat. CodeIgniter menyediakan library umum, struktur MVC yang sederhana, serta dokumentasi lengkap untuk memudahkan pengembangan.
+###################
+VENDOR
+###################
+LINK : https://drive.google.com/file/d/1uiw_qQ5H5KZOPORM36l0OjDUIoFZzfuX/view?usp=drive_link
+&&
+JANGAN LUPA ADD FOLDER FILE DI ASSETS, DAN ADD FOLDER PDF DI FILE
 
-## ⚙️ Installation
-Pastikan Composer sudah terpasang di komputer. Untuk menginstal library yang dibutuhkan jalankan perintah:
+###################
+What is CodeIgniter
+###################
 
-    composer require mpdf/mpdf
-    composer require chillerlan/php-qrcode
+CodeIgniter is an Application Development Framework - a toolkit - for people
+who build web sites using PHP. Its goal is to enable you to develop projects
+much faster than you could if you were writing code from scratch, by providing
+a rich set of libraries for commonly needed tasks, as well as a simple
+interface and logical structure to access these libraries. CodeIgniter lets
+you creatively focus on your project by minimizing the amount of code needed
+for a given task.
 
-Untuk pengguna macOS jalankan perintah berikut agar folder `tmp` dapat diakses:
+*******************
+Release Information
+*******************
 
-    sudo chmod -R 777 vendor/mpdf/mpdf/tmp
+This repo contains in-development code for future releases. To download the
+latest stable release please visit the `CodeIgniter Downloads
+<https://codeigniter.com/download>`_ page.
 
-Jika Composer tidak dapat digunakan, vendor package dapat diunduh melalui link berikut:  
-[Download Vendor](https://drive.google.com/file/d/1uiw_qQ5H5KZOPORM36l0OjDUIoFZzfuX/view?usp=drive_link)  
+**************************
+Changelog and New Features
+**************************
 
-Setelah itu ekstrak hasil download ke folder project. Tambahkan juga folder `assets/` dan `file/pdf/` ke dalam project agar sistem berjalan dengan baik.
+You can find a list of all changes for each release in the `user
+guide change log <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/changelog.rst>`_.
 
-## 📌 Project Information
-Bahasa pemrograman yang digunakan adalah PHP dan JavaScript dengan database MySQL. Beberapa library yang digunakan antara lain mPDF sebagai PDF Generator, chillerlan/php-qrcode sebagai QR Code Generator, Select2 untuk input yang lebih interaktif, dan DataTables untuk pengelolaan tabel.
+*******************
+Server Requirements
+*******************
 
-## 🔗 Resources
-- [CodeIgniter User Guide](https://codeigniter.com/docs)  
-- [CodeIgniter Downloads](https://codeigniter.com/download)  
-- [Contributing Guide](https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md)  
-- [Language File Translations](https://github.com/bcit-ci/codeigniter3-translations)  
-- [Community Forum](http://forum.codeigniter.com/)  
-- [Community Wiki](https://github.com/bcit-ci/CodeIgniter/wiki)  
-- [Slack Channel](https://codeigniterchat.slack.com)  
+PHP version 5.6 or newer is recommended.
 
-## 📜 License
-Project ini menggunakan lisensi resmi dari CodeIgniter. Detail lisensi dapat dilihat di [CodeIgniter License](https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst).
+It should work on 8.1.10 as well, but we strongly advise you NOT to run
+such old versions of PHP, because of potential security and performance
+issues, as well as missing features.
 
-## 🙏 Acknowledgement
-Terima kasih kepada Tim CodeIgniter, semua kontributor open-source, dan seluruh pengguna yang mendukung pengembangan project ini.
+************
+Installation
+************
+
+Please see the `installation section <https://codeigniter.com/userguide3/installation/index.html>`_
+of the CodeIgniter User Guide.
+
+*******
+License
+*******
+
+Please see the `license
+agreement <https://github.com/bcit-ci/CodeIgniter/blob/develop/user_guide_src/source/license.rst>`_.
+
+*********
+Resources
+*********
+
+-  `User Guide <https://codeigniter.com/docs>`_
+-  `Contributing Guide <https://github.com/bcit-ci/CodeIgniter/blob/develop/contributing.md>`_
+-  `Language File Translations <https://github.com/bcit-ci/codeigniter3-translations>`_
+-  `Community Forums <http://forum.codeigniter.com/>`_
+-  `Community Wiki <https://github.com/bcit-ci/CodeIgniter/wiki>`_
+-  `Community Slack Channel <https://codeigniterchat.slack.com>`_
+
+Report security issues to our `Security Panel <mailto:security@codeigniter.com>`_
+or via our `page on HackerOne <https://hackerone.com/codeigniter>`_, thank you.
+
+***************
+Acknowledgement
+***************
+
+The CodeIgniter team would like to thank EllisLab, all the
+contributors to the CodeIgniter project and you, the CodeIgniter user.
+
+****************
+Program Language
+****************
+
+- PHP
+- Javascript
+
+********
+Database
+********
+
+- Mysql
+
+*********
+Libraries
+*********
+
+- select2
+- datatables
