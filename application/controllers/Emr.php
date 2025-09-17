@@ -214,7 +214,7 @@ class Emr extends CI_Controller
                         <li><a class="dropdown-item" onclick="buatSurat(' . "'" . $rd->no_trx . "', 'Surat Keterangan Diagnosa', '3', 'Suket_diagnosa_'" . ')" ' . $disabled . ' type="button">Surat Keterangan Diagnosa</a></li>
                         <li><a class="dropdown-item" onclick="buatSurat(' . "'" . $rd->no_trx . "', 'Surat Keterangan Perawatan', '4', 'Suket_dalam_perawatan_'" . ')" ' . $disabled . ' type="button">Surat Keterangan Perawatan</a></li>
                         <li><a target="_blank" class="dropdown-item" onclick="buatSurat(' . "'" . $rd->no_trx . "', 'Resume Medis', '5', 'Suket_resume_'" . ')" ' . $disabled . ' type="button">Resume Medis</a></li>
-                        <li><a href="' . site_url('Emr/spri/') . $rd->no_trx . '" class="dropdown-item" type="button">SPRI</a></li>
+                        <li><a target="_blank" href="' . site_url('Emr/spri/') . $rd->no_trx . '" class="dropdown-item" type="button">SPRI</a></li>
                     </ul>
                 </div>
             </div>';
